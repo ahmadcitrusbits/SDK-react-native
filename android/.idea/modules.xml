@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestApp1.iml" filepath="$PROJECT_DIR$/.idea/modules/TestApp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TestApp1.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TestApp1.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/845633786/TestApp1.react-native-qualtrics.iml" filepath="$PROJECT_DIR$/.idea/modules/845633786/TestApp1.react-native-qualtrics.iml" />
+    </modules>
+  </component>
+</project>

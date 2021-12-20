@@ -1,0 +1,24 @@
+{
+  "name": "RNQualtricsDigital",
+  "version": "0.0.1",
+  "summary": "RNQualtricsDigital",
+  "description": "RNQualtricsDigital",
+  "homepage": "https://api.qualtrics.com",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "Qualtrics": [
+
+    ],
+    "React": [
+
+    ]
+  },
+  "source": {
+    "http": "file:/Users/zhelberg/react-native/TestApp1/node_modules/react-native-qualtrics/ios/RNQualtricsDigital.zip"
+  },
+  "authors": "Qualtrics"
+}
