@@ -18,7 +18,7 @@
     ]
   },
   "source": {
-    "http": "file:/Users/zhelberg/react-native/TestApp1/node_modules/react-native-qualtrics/ios/RNQualtricsDigital.zip"
+    "http": "file:/Users/mac/Desktop/SDK-react-native/node_modules/react-native-qualtrics/ios/RNQualtricsDigital.zip"
   },
   "authors": "Qualtrics"
 }

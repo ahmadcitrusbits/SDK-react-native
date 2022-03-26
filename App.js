@@ -7,58 +7,24 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
 import {
   SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
   Button,
   View,
 } from 'react-native';
 import Qualtrics from 'react-native-qualtrics';
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 
-const Section = ({children, title}): Node => {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
+export const INTERCEPT_ID = 'SI_884jdLI12iIidsG';
+export const INTERCEPT_ID2 = 'SI_6zBO6jCXLfy02vc';
+export const BRAND_ID = 'northwestcompany';
+export const PROJECT_ID = 'ZN_1BUTdAdrNbaHMrA';
 
 function initMe() {
   console.log('Initializing...');
   Qualtrics.initializeProjectWithExtRefId(
-    "BRAND ID",
-    "PROJECT ID",
-    "",
+    BRAND_ID,
+    PROJECT_ID,
+    "61c2fbeec84946002434d779",
     initializationResults => {
     console.log(initializationResults);
     console.log("Initialization Done");
@@ -79,40 +45,15 @@ function initMe() {
     console.log("Evaluation Done");
   });
  }
- 
-const App: () => Node = () => {
-  const isDarkMode = useColorScheme() === 'dark';
 
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
+const App = () => {
 
   return (
-    <View>
-        <SafeAreaView style={backgroundStyle}>
-        </SafeAreaView>
+    <SafeAreaView>
         <View><Button title="Initialize Me" onPress={() => initMe()} /></View>
         <View><Button title="Evaluate and Display Me" onPress={() => evalMe()} /></View>
-    </View>
+    </SafeAreaView>
   );
 };
 
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 export default App;

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/zhelberg/react-native/TestApp1/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "/Users/mac/Desktop/SDK-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/zhelberg/.gradle/caches/transforms-2/files-2.1/75df169f088d5a328ddd540647bdb776/material-1.4.0-alpha02/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/d4df418ab718f7def0e12c5a4285a483/material-1.4.0-alpha02/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

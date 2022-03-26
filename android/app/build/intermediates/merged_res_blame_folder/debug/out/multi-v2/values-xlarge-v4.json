@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/zhelberg/react-native/TestApp1/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "/Users/mac/Desktop/SDK-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/Users/zhelberg/.gradle/caches/transforms-2/files-2.1/93e99cc524f9e4f775937ead40ad032e/appcompat-1.2.0/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/a99a4a76f3b1a3c0b7dbf471babe7f2d/appcompat-1.2.0/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
