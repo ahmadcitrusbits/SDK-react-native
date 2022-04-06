@@ -19,12 +19,19 @@ export const INTERCEPT_ID2 = 'SI_6zBO6jCXLfy02vc';
 export const BRAND_ID = 'northwestcompany';
 export const PROJECT_ID = 'ZN_1BUTdAdrNbaHMrA';
 
+const userIds = [
+    '62050836491f5c00229a299a',
+    '621f60246f207d0022bfea9b',
+    '621f60a04961240022b2cea6',
+    '621f655b4961240022b2cead',
+]
+
 function initMe() {
   console.log('Initializing...');
   Qualtrics.initializeProjectWithExtRefId(
     BRAND_ID,
     PROJECT_ID,
-    "61c2fbeec84946002434d779",
+    userIds[0],
     initializationResults => {
     console.log(initializationResults);
     console.log("Initialization Done");
